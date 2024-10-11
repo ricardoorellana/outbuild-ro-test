@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem;
+  padding-right: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
